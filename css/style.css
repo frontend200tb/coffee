@@ -121,3 +121,18 @@ main{
 	color: #fff;
 	font-weight: normal;
 }
+
+/*Copyright*/
+.copyright {
+    text-align: center;
+}
+
+.copyright a {
+    color:#333;
+    font-size: 13px;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
+/*Copyright end*/
