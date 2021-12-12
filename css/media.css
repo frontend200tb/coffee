@@ -1,75 +1,85 @@
 /* для маленьких экранов */
-@media (min-width: 560px){
-	.title > h1{
-		font-size: 2.2rem;
-	}
-	.hero{
-		padding: 5em 3em;
-		font-size: 1.3rem;
-	}
-	.menu-toggle{
-		display: none;
-	}
-	.menu-dropdown{
-		display: block;
-		position: static;
-	}
-	.nav-menu{
-		display: flex;
-		border: 0;
-		padding: 0 1em;
-		list-style-type: none;
-	}
-	.nav-menu > li{
-		flex: 1;
-	}
-	.nav-menu > li + li{
-		border: 0;
-	}
-	.nav-menu > li > a{
-		padding: 0.3em;
-		text-align: center;
-	}
-	.row{
-		display: flex;
-		margin-left: -.75em;
-		margin-right: -.75em;
-	}
-	.column{
-		flex: 1;
-		margin-left: 0.75em;
-		margin-right: 0.75em;
-	}
+@media (min-width: 560px) {
+  .title > h1{
+    font-size: 2.2rem;
+  }
+
+  .hero {
+    padding: 5em 3em;
+    font-size: 1.3rem;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-dropdown {
+    display: block;
+    position: static;
+  }
+
+  .nav-menu {
+    display: flex;
+    padding: 0 1em;
+    border: 0;
+    list-style-type: none;
+  }
+
+  .nav-menu > li {
+    flex: 1;
+  }
+
+  .nav-menu > li + li {
+    border: 0;
+  }
+
+  .nav-menu > li > a {
+    padding: 0.3em;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    margin-left: -.75em;
+    margin-right: -.75em;
+  }
+
+  .column {
+    flex: 1;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
 }
 
 /* для средних экранов */
 @media (min-width: 35em) {
-	.hero{
-		padding: 5em 3em;
-		font-size: 1.2rem;
-		background: url(../img/coffee-beans-medium.jpg);
-	}
+  .hero{
+    padding: 5em 3em;
+    font-size: 1.2rem;
+    background: url(../img/coffee-beans-medium.jpg);
+  }
 }
 
 /* для больших экранов */
 @media (min-width: 50em) {
-	.page-header{
-		padding: 1.2em 4em;
-	}
+  :root {
+    font-size: 1.2em;
+  }
 
-	.hero{
-		padding: 7em 6em;
-	}
+  .page-header {
+    padding: 1.2em 4em;
+  }
 
-	.main{
-		padding: 2em 4em;
-	}
+  .hero {
+    padding: 7em 6em;
+  }
 
-	:root{
-		font-size: 1.2em;
-	}
-	.hero{
-		padding: 7em 5em;
-		background: url(../img/coffee-beans.jpg);
-	}
+  .main {
+    padding: 2em 4em;
+  }
+
+  .hero {
+    padding: 7em 5em;
+    background: url(../img/coffee-beans.jpg);
+  }
 }
